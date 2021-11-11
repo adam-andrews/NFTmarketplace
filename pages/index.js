@@ -104,8 +104,6 @@ export default function Home() {
                 </dl>
               </div>
             </div>
-            {/*------ ORDER INFO ENDS ------*/}
-
             {/*------ COURSE CARD STARTS ------*/}
             <section className="grid grid-cols-2 gap-4 mb-5">
               { Array.from({length: 4}).map((_, i) =>
